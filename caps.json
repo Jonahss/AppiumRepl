@@ -1,0 +1,49 @@
+{
+  "TestApp" :
+    {
+      "device": "iPhone Simulator",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app",
+      "version": "7.1",
+      "newCommandTimeout": 100000
+    },
+  "UICatalog" :
+    {
+      "device": "iPhone Simulator",
+      "app": "/Users/jonahss/Workspace/appium/assets/UICatalog6.1.app.zip",
+      "version": "7.1",
+      "newCommandTimeout": 100000
+    },
+  "ApiDemos" :
+    {
+      "device": "Android",
+      "app": "/Users/jonahss/Workspace/appium/submodules/ApiDemos/bin/ApiDemos-debug.apk",
+      "newCommandTimeout": 100000
+    },
+  "ContactManager" :
+    {
+      "device": "Android",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/ContactManager/ContactManager.apk",
+      "newCommandTimeout": 100000
+    },
+  "Webview" :
+    {
+      "device": "Android",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/selendroid-test-app.apk",
+      "appPackage": "io.selendroid.testapp",
+      "appActivity": ".HomeScreenActivity"
+    },
+  "Gappium" :
+    {
+      "device": "Android",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/io.appium.gappium.sampleapp/platforms/android/ant-build/HelloGappium-debug.apk",
+      "appPackage": "io.appium.gappium.sampleapp",
+      "appActivity": ".HelloGappium"
+    },
+  "iPad" :
+    {
+      "deviceName": "iPad Simulator",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app",
+      "version": "7.0",
+      "newCommandTimeout": 100000
+    }
+}
