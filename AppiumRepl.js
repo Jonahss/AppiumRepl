@@ -5,12 +5,22 @@ var telme = require('telme-promise')
 
 var profiles = require('./caps.json')
 
-var sauce = {
-  hostname: "localhost",
-  port: 4723
+
+var remote = {
+  local: {
+    hostname: "localhost",
+    port: 4723
+  },
+  sauce: {
+    hostname: "ondemand.saucelabs.com",
+    port: 80,
+    username: process.env.SAUCE_USERNAME,
+    accessKey: process.env.SAUCE_ACCESS_KEY
+  }
+
 }
 
-driver = wd.remote(sauce)
+driver = wd.remote(remote['sauce'])
 
 driver.on('status', function(info) {
   console.log(info.cyan);
@@ -40,9 +50,10 @@ Object.keys(profiles).forEach(function(key){
 
 
 console.log('starting driver')
-var caps = profiles['iPad'];
+var caps = profiles['Locale'];
 caps.newCommandTimeout = 0;
-driver.init(caps, function(){
+driver.init(caps, function(err){
+  if (err) { console.log(err); return; }
   console.log('driver started');
   repl.start({prompt:'("o")', useGlobal: true})
 });

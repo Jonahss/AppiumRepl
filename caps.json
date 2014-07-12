@@ -1,40 +1,43 @@
 {
   "TestApp" :
     {
-      "device": "iPhone Simulator",
+      "platformName": "iOS",
+      "deviceName": "iPhone Simulator",
       "app": "/Users/jonahss/Workspace/appium/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app",
-      "version": "7.1",
+      "platformVersion": "7.1",
       "newCommandTimeout": 100000
     },
   "UICatalog" :
     {
-      "device": "iPhone Simulator",
+      "platformName": "iOS",
+      "platformVersion": 7.1,
+      "deviceName": "iPhone Simulator",
       "app": "/Users/jonahss/Workspace/appium/assets/UICatalog6.1.app.zip",
-      "version": "7.1",
       "newCommandTimeout": 100000
     },
   "ApiDemos" :
     {
-      "device": "Android",
+      "platformName": "Android",
+      "deviceName": "Android Emulator",
       "app": "/Users/jonahss/Workspace/appium/submodules/ApiDemos/bin/ApiDemos-debug.apk",
       "newCommandTimeout": 100000
     },
   "ContactManager" :
     {
-      "device": "Android",
+      "deviceName": "Android",
       "app": "/Users/jonahss/Workspace/appium/sample-code/apps/ContactManager/ContactManager.apk",
       "newCommandTimeout": 100000
     },
   "Webview" :
     {
-      "device": "Android",
+      "deviceName": "Android",
       "app": "/Users/jonahss/Workspace/appium/sample-code/apps/selendroid-test-app.apk",
       "appPackage": "io.selendroid.testapp",
       "appActivity": ".HomeScreenActivity"
     },
   "Gappium" :
     {
-      "device": "Android",
+      "deviceName": "Android",
       "app": "/Users/jonahss/Workspace/appium/sample-code/apps/io.appium.gappium.sampleapp/platforms/android/ant-build/HelloGappium-debug.apk",
       "appPackage": "io.appium.gappium.sampleapp",
       "appActivity": ".HelloGappium"
@@ -45,5 +48,30 @@
       "app": "/Users/jonahss/Workspace/appium/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app",
       "version": "7.0",
       "newCommandTimeout": 100000
+    },
+  "WebViewApp":
+    {
+      "platformName": "iOS",
+      "platformVersion": "7.1",
+      "deviceName": "iPad",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/WebViewApp/build/Release-iphonesimulator/WebViewApp.app"
+    },
+  "Safari":
+    {
+      "platformName": "iOS",
+      "platformVersion": "7.1",
+      "deviceName": "iPhone Simulator",
+      "browserName": "Safari"
+    },
+  "Locale" :
+    {
+      "appium-version": "1.2",
+      "browserName": "",
+      "platformName": "iOS",
+      "deviceName": "iPhone Simulator",
+      "app": "https://s3.amazonaws.com/jonahss-public/TestApp.app.zip",
+      "platformVersion": "7.1",
+      "newCommandTimeout": 100000,
+      "max-duration": 10000
     }
 }
