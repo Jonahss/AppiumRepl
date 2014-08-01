@@ -1,0 +1,30 @@
+{
+  "name": "appium-repl",
+  "version": "0.0.1",
+  "description": "Simple REPL (Read-eval-print Loop) for controlling mobile apps through Appium",
+  "main": "AppiumRepl.js",
+  "dependencies": {
+    "colors": "^0.6.2",
+    "wd": "^0.3",
+    "telme-promise": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moizjv/AppiumRepl.git"
+  },
+  "keywords": [
+    "appium",
+    "appium-repl",
+    "automation-repl"
+  ],
+  "author": "Jonah , Moiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moizjv/AppiumRepl/issues"
+  },
+  "homepage": "https://github.com/moizjv/AppiumRepl"
+}
