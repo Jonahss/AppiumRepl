@@ -1,5 +1,59 @@
 {
+  "wordpress":
+  {
+      "app": "/Users/moizvirani/Documents/wordpress-example/apk/org.wordpress.android-2.8.1.apk",
+      "platformName":"Android",
+      "newCommandTimeout": 100000,
+      "autoLaunch" : "true",
+      "automationName" : "Selendroid",
+      "deviceName" : "Android",
+      "optionalIntentArguments" : "--activity-brought-to-front 0x00400000"
 
+
+    },
+  "TestApp" :
+    {
+      "deviceName": "iPhone Simulator",
+      "app": "/Users/moizvirani/Documents/Gitrepository/appium/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app",
+      "version": "7.1",
+      "newCommandTimeout": 100000,
+      "autoLaunch" : "flase",
+      "platformName":"iOS",
+      "device": "iPhone Simulator"
+    },
+  "UICatalog" :
+    {
+      "deviceName": "iPhone Simulator",
+      "app": "/Users/moizvirani/Documents/Gitrepository/appium/assets/UICatalog6.1.app.zip",
+      "version": "7.1",
+      "platformName":"iOS",
+      "newCommandTimeout": 100000
+    },
+  "ApiDemos" :
+    {
+      "device": "Android",
+      "app": "/Users/moizvirani/Documents/Gitrepository/appium/submodules/ApiDemos/bin/ApiDemos-debug.apk",
+      "newCommandTimeout": 100000,
+      "intentCategory" : "appium.android.intent.category.SAMPLE_CODE",
+      "appActivity" : "io.appium.android.apis.app.HelloWorld",
+      "deviceName" : "Android",
+      "platformName":"Android"
+
+
+    },
+    "CAPSTEST" :
+    {
+      "device": "Android",
+      "app": "/Users/moizvirani/Documents/Gitrepository/appium/submodules/ApiDemos/bin/ApiDemos-debug.apk",
+      "newCommandTimeout": 100000,
+      "intentCategory" : "appium.android.intent.category.SAMPLE_CODE",
+      "intentAction" : "android.intent.action.CREATE_SHORTCUT",
+      "intentCategory":"android.intent.category.DEFAULT",
+      "appActivity" : "io.appium.android.apis.app.CreateShortcuts",
+      "platformName":"Android"
+
+
+    },
   "ContactManager" :
     {
       "device": "Android",
@@ -8,6 +62,48 @@
       "deviceName" : "Android",
 
       "platformName":"Android"
-    }
+    },
+
+    "Uber" :
+      {
+        "device": "Android",
+        "app": "/Users/moizvirani/Downloads/Uber-com.ubercab-30616-v3.0.20.apk",
+        "newCommandTimeout": 100000,
+        "deviceName" : "Android",
+
+        "platformName":"Android"
+      },
+
+  "Webview" :
+    {
+      "device": "Android",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/selendroid-test-app.apk",
+      "appPackage": "io.selendroid.testapp",
+      "appActivity": ".HomeScreenActivity"
+    },
+  "Gappium" :
+    {
+      "device": "Android",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/io.appium.gappium.sampleapp/platforms/android/ant-build/HelloGappium-debug.apk",
+      "appPackage": "io.appium.gappium.sampleapp",
+      "appActivity": ".HelloGappium"
+    },
+  "iPad" :
+    {
+      "deviceName": "iPad Simulator",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app",
+      "version": "7.0",
+      "newCommandTimeout": 100000
+    },
+    "remote":
+    {
+        "app": "/Users/moizvirani/Downloads/NotesList.apk",
+        "platformName":"Android",
+        "newCommandTimeout": 100000,
+        "autoLaunch" : "true",
+        "automationName" : "Selendroid",
+        "deviceName" : "Android",
+        "optionalIntentArguments" : "--activity-brought-to-front 0x00400000"
+      }
 
 }

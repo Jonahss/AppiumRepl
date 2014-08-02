@@ -6,7 +6,9 @@
   "dependencies": {
     "colors": "^0.6.2",
     "wd": "^0.3",
-    "telme-promise": "^0.1.0"
+    "telme-promise": "^0.1.0",
+    "prompt": "0.2.13",
+    "underscore":"1.6.0"
   },
   "devDependencies": {},
   "scripts": {
