@@ -1,43 +1,89 @@
 {
+  "wordpress":
+  {
+      "app": "/Users/moizvirani/Documents/wordpress-example/apk/org.wordpress.android-2.8.1.apk",
+      "platformName":"Android",
+      "newCommandTimeout": 100000,
+      "autoLaunch" : "true",
+      "automationName" : "Selendroid",
+      "deviceName" : "Android",
+      "optionalIntentArguments" : "--activity-brought-to-front 0x00400000"
+
+
+    },
   "TestApp" :
     {
-      "platformName": "iOS",
       "deviceName": "iPhone Simulator",
-      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app",
-      "platformVersion": "7.1",
-      "newCommandTimeout": 100000
+      "app": "/Users/moizvirani/Documents/Gitrepository/appium/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app",
+      "version": "7.1",
+      "newCommandTimeout": 100000,
+      "autoLaunch" : "flase",
+      "platformName":"iOS",
+      "device": "iPhone Simulator"
     },
   "UICatalog" :
     {
-      "platformName": "iOS",
-      "platformVersion": 7.1,
       "deviceName": "iPhone Simulator",
-      "app": "/Users/jonahss/Workspace/appium/assets/UICatalog6.1.app.zip",
+      "app": "/Users/moizvirani/Documents/Gitrepository/appium/assets/UICatalog6.1.app.zip",
+      "version": "7.1",
+      "platformName":"iOS",
       "newCommandTimeout": 100000
     },
   "ApiDemos" :
     {
-      "platformName": "Android",
-      "deviceName": "Android Emulator",
-      "app": "/Users/jonahss/Workspace/appium/submodules/ApiDemos/bin/ApiDemos-debug.apk",
-      "newCommandTimeout": 100000
+      "device": "Android",
+      "app": "/Users/moizvirani/Documents/Gitrepository/appium/submodules/ApiDemos/bin/ApiDemos-debug.apk",
+      "newCommandTimeout": 100000,
+      "intentCategory" : "appium.android.intent.category.SAMPLE_CODE",
+      "appActivity" : "io.appium.android.apis.app.HelloWorld",
+      "deviceName" : "Android",
+      "platformName":"Android"
+
+
+    },
+    "CAPSTEST" :
+    {
+      "device": "Android",
+      "app": "/Users/moizvirani/Documents/Gitrepository/appium/submodules/ApiDemos/bin/ApiDemos-debug.apk",
+      "newCommandTimeout": 100000,
+      "intentCategory" : "appium.android.intent.category.SAMPLE_CODE",
+      "intentAction" : "android.intent.action.CREATE_SHORTCUT",
+      "intentCategory":"android.intent.category.DEFAULT",
+      "appActivity" : "io.appium.android.apis.app.CreateShortcuts",
+      "platformName":"Android"
+
+
     },
   "ContactManager" :
     {
-      "deviceName": "Android",
-      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/ContactManager/ContactManager.apk",
-      "newCommandTimeout": 100000
+      "device": "Android",
+      "app": "http://saucelabs.com/example_files/ContactManager.apk",
+      "newCommandTimeout": 100000,
+      "deviceName" : "Android",
+
+      "platformName":"Android"
     },
+
+    "Uber" :
+      {
+        "device": "Android",
+        "app": "/Users/moizvirani/Downloads/Uber-com.ubercab-30616-v3.0.20.apk",
+        "newCommandTimeout": 100000,
+        "deviceName" : "Android",
+
+        "platformName":"Android"
+      },
+
   "Webview" :
     {
-      "deviceName": "Android",
+      "device": "Android",
       "app": "/Users/jonahss/Workspace/appium/sample-code/apps/selendroid-test-app.apk",
       "appPackage": "io.selendroid.testapp",
       "appActivity": ".HomeScreenActivity"
     },
   "Gappium" :
     {
-      "deviceName": "Android",
+      "device": "Android",
       "app": "/Users/jonahss/Workspace/appium/sample-code/apps/io.appium.gappium.sampleapp/platforms/android/ant-build/HelloGappium-debug.apk",
       "appPackage": "io.appium.gappium.sampleapp",
       "appActivity": ".HelloGappium"
@@ -49,29 +95,15 @@
       "version": "7.0",
       "newCommandTimeout": 100000
     },
-  "WebViewApp":
+    "remote":
     {
-      "platformName": "iOS",
-      "platformVersion": "7.1",
-      "deviceName": "iPad",
-      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/WebViewApp/build/Release-iphonesimulator/WebViewApp.app"
-    },
-  "Safari":
-    {
-      "platformName": "iOS",
-      "platformVersion": "7.1",
-      "deviceName": "iPhone Simulator",
-      "browserName": "Safari"
-    },
-  "Locale" :
-    {
-      "appium-version": "1.2",
-      "browserName": "",
-      "platformName": "iOS",
-      "deviceName": "iPhone Simulator",
-      "app": "https://s3.amazonaws.com/jonahss-public/TestApp.app.zip",
-      "platformVersion": "7.1",
-      "newCommandTimeout": 100000,
-      "max-duration": 10000
-    }
+        "app": "/Users/moizvirani/Downloads/NotesList.apk",
+        "platformName":"Android",
+        "newCommandTimeout": 100000,
+        "autoLaunch" : "true",
+        "automationName" : "Selendroid",
+        "deviceName" : "Android",
+        "optionalIntentArguments" : "--activity-brought-to-front 0x00400000"
+      }
+
 }
