@@ -23,7 +23,9 @@ Run your appium server and then run.
 
 Then `node .`.
 
-Enter the name of application you want to test.
+Enter the number corresponding to the application you want to test.
+
+(alternatively, if you run `node . APP_NAME` it will skip the app menu and start the repl immediately)
 
 Then you can call your driver commands with passing handler for call back. It comes by a in built handler
 called handler which needs to be passed.
