@@ -95,15 +95,60 @@
       "version": "7.0",
       "newCommandTimeout": 100000
     },
-    "remote":
+  "remote":
     {
-        "app": "/Users/moizvirani/Downloads/NotesList.apk",
-        "platformName":"Android",
-        "newCommandTimeout": 100000,
-        "autoLaunch" : "true",
-        "automationName" : "Selendroid",
-        "deviceName" : "Android",
-        "optionalIntentArguments" : "--activity-brought-to-front 0x00400000"
-      }
-
+      "app": "/Users/moizvirani/Downloads/NotesList.apk",
+      "platformName":"Android",
+      "newCommandTimeout": 100000,
+      "autoLaunch" : "true",
+      "automationName" : "Selendroid",
+      "deviceName" : "Android",
+      "optionalIntentArguments" : "--activity-brought-to-front 0x00400000"
+    },
+  "Safari":
+    {
+      "platformName": "iOS",
+      "platformVersion": "7.1",
+      "deviceName": "iPhone Simulator",
+      "browserName": "Safari"
+    },
+  "Locale" :
+    {
+      "appium-version": "1.2",
+      "browserName": "",
+      "platformName": "iOS",
+      "deviceName": "iPhone Simulator",
+      "app": "https://s3.amazonaws.com/jonahss-public/TestApp.app.zip",
+      "platformVersion": "7.1",
+      "newCommandTimeout": 100000,
+      "max-duration": 10000
+    },
+  "Proxy" :
+    {
+      "appium-version": "1.2",
+      "browserName": "",
+      "platformName": "iOS",
+      "deviceName": "iPhone Simulator",
+      "app": "https://s3.amazonaws.com/jonahss-public/TestApp.app.zip",
+      "platformVersion": "7.1",
+      "newCommandTimeout": 100000,
+      "max-duration": 10000,
+      "proxy":{"proxyType":"MANUAL","sslProxy":"maki77079.miso:33128","httpProxy":"maki77079.miso:33128"}
+    },
+  "Notes" :
+    {
+      "platformName": "Android",
+      "deviceName": "Android Emulator",
+      "app": "/Users/jonahss/Downloads/NotesList.apk",
+      "platformVersion": "4.3",
+      "newCommandTimeout": 100000
+    },
+  "Xpath" :
+    {
+      "platformName": "Android",
+      "deviceName": "Android Emulator",
+      "app": "/Users/jonahss/Downloads/TestApp.apk",
+      "platformVersion": "4.4",
+      "newCommandTimeout": 100000
+    }
 }
