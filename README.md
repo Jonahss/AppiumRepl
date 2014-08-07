@@ -13,7 +13,7 @@ eg
     "app": "<app name>",
     "version": "7.1",
     "newCommandTimeout": 100000,
-    "autoLaunch" : "flase",
+    "autoLaunch" : "false",
     "platformName":"iOS",
     "device": "iPhone Simulator"
   }
