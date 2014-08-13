@@ -1,6 +1,6 @@
 {
   "name": "appium-repl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple REPL (Read-eval-print Loop) for controlling mobile apps through Appium",
   "main": "./lib/appium-repl.js",
   "dependencies": {
