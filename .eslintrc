@@ -1,0 +1,10 @@
+{
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-unused-vars": 1,
+    "semi": 1,
+    "no-undef": 1
+  }
+}
