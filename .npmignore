@@ -1,0 +1,7 @@
+.appium-repl
+node_modules/
+caps.json
+.eslintrc
+gappiumtest.js
+.git
+.gitignore
