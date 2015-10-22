@@ -11,7 +11,7 @@ eg
   {
     "deviceName": "iPhone Simulator",
     "app": "<app name>",
-    "version": "7.1",
+    "platformVersion": "7.1",
     "newCommandTimeout": 100000,
     "autoLaunch" : "false",
     "platformName":"iOS",
