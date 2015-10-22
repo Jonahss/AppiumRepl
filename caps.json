@@ -1,13 +1,248 @@
 {
+  "clean-calculator":
+    {
+      "device": "Android",
+      "appPackage": "home.jmstudios.calc",
+      "appActivity": "Main",
+      "newCommandTimeout": 100000,
+      "deviceName" : "Android S4",
+      "platformName":"Android",
+      "platformVersion":"4.4"
+    },
+  "TestApp" :
+    {
+      "deviceName": "iPhone Simulator",
+      "app": "/Users/jonahss/Workspace/AppiumRepl/node_modules/sample-apps/node_modules/ios-test-app/build/Release-iphonesimulator/TestApp-iphonesimulator.app",
+      "platformVersion": "8.4",
+      "newCommandTimeout": 100000,
+      "platformName":"iOS"
+    },
+  "UICatalog" :
+    {
+      "deviceName": "iPhone Simulator",
+      "app": "/Users/jonahss/Workspace/appiumRepl/node_modules/sample-apps/pre-built/UICatalog8.2.app.zip",
+      "platformVersion": "8.4",
+      "platformName":"iOS",
+      "newCommandTimeout": 100000
+    },
+  "ApiDemos" :
+    {
+      "deviceName": "Android",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/ApiDemos/bin/ApiDemos-debug.apk",
+      "newCommandTimeout": 100000,
+      "deviceName" : "Android Emulator",
+      "platformName":"Android",
+      "platformVersion": 5.1
+    },
+    "CAPSTEST" :
+    {
+      "device": "Android",
+      "app": "/Users/moizvirani/Documents/Gitrepository/appium/submodules/ApiDemos/bin/ApiDemos-debug.apk",
+      "newCommandTimeout": 100000,
+      "intentCategory" : "appium.android.intent.category.SAMPLE_CODE",
+      "intentAction" : "android.intent.action.CREATE_SHORTCUT",
+      "intentCategory":"android.intent.category.DEFAULT",
+      "appActivity" : "io.appium.android.apis.app.CreateShortcuts",
+      "platformName":"Android"
 
+
+    },
   "ContactManager" :
     {
       "device": "Android",
       "app": "http://saucelabs.com/example_files/ContactManager.apk",
       "newCommandTimeout": 100000,
       "deviceName" : "Android",
-
       "platformName":"Android"
-    }
+    },
 
+    "Uber" :
+      {
+        "device": "Android",
+        "app": "/Users/moizvirani/Downloads/Uber-com.ubercab-30616-v3.0.20.apk",
+        "newCommandTimeout": 100000,
+        "deviceName" : "Android",
+        "platformName":"Android"
+      },
+
+  "Webview" :
+    {
+      "device": "Android",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/selendroid-test-app.apk",
+      "appPackage": "io.selendroid.testapp",
+      "appActivity": ".HomeScreenActivity"
+    },
+  "Gappium" :
+    {
+      "deviceName": "Android Emulator",
+      "platformName": "Android",
+      "automationName": "Selendroid",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/io.appium.gappium.sampleapp/platforms/android/ant-build/HelloGappium-debug.apk",
+      "appPackage": "io.appium.gappium.sampleapp",
+      "appActivity": ".HelloGappium"
+    },
+  "iPad" :
+    {
+      "deviceName": "iPad Simulator",
+      "app": "/Users/jonahss/Workspace/appium/sample-code/apps/TestApp/build/Release-iphonesimulator/TestApp.app",
+      "version": "7.0",
+      "newCommandTimeout": 100000
+    },
+  "remote":
+    {
+        "app": "/Users/moizvirani/Downloads/NotesList.apk",
+        "platformName":"Android",
+        "newCommandTimeout": 100000,
+        "autoLaunch" : "true",
+        "automationName" : "Selendroid",
+        "deviceName" : "Android",
+        "optionalIntentArguments" : "--activity-brought-to-front 0x00400000"
+    },
+  "Notes" :
+    {
+      "platformName": "Android",
+      "deviceName": "Android Emulator",
+      "app": "/Users/jonahss/Downloads/NotesList.apk",
+      "newCommandTimeout": 100000
+    },
+  "Safari" :
+    {
+      "deviceName": "iPhone Simulator",
+      "browserName": "Safari",
+      "platformVersion": "8.3",
+      "platformName":"iOS",
+      "newCommandTimeout": 100000,
+      "udid": "b05ebfabc9e31846a5541453be600cbb58156357"
+    },
+  "StabilityTest" :
+    {
+      "platformName": "Android",
+      "deviceName": "Galaxy S4",
+      "app": "/Users/jonahss/Workspace/stability/com.into.stability-1.apk",
+      "newCommandTimeout": 100000
+    },
+  "clean-calculator1":
+    {
+      "device": "Android",
+      "app": "/Users/jonahss/Workspace/clean-calculator/out/production/clean-calculator/clean-calculator.apk",
+      "newCommandTimeout": 100000,
+      "deviceName" : "Android S4",
+      "platformName":"Android",
+      "platformVersion":"4.4"
+    },
+  "Chrome":
+    {
+      "platformName": "Android",
+      "platformVersion": "4.4",
+      "udid": "4d005a6abc0d117d",
+      "deviceName": "Android",
+      "browserName": "chrome"
+    },
+  "WebViewApp":
+    {
+      "deviceName": "iPhone Simulator",
+      "app": "/Users/jonahss/Workspace/AppiumRepl/node_modules/sample-apps/pre-built/WebViewApp7.1.app.zip",
+      "version": "7.1",
+      "newCommandTimeout": 100000,
+      "platformName":"iOS"
+    },
+  "BofA":
+    {
+      "deviceName": "iPad Simulator",
+      "platformVersion": "7.1",
+      "platformName": "iOS",
+      "newCommandTimeout": 100000,
+      "browserName": "Safari"
+    },
+  "browser":
+    {
+      "deviceName": "Android Emulator",
+      "platformVersion": "5.1",
+      "platformName": "Android",
+      "browserName": "browser",
+      "newCommandTimeout": 100000
+    },
+  "gpsTutorial":
+    {
+      "app": "/Users/jonahss/Workspace/gps-demo-app/bin/gpsDemo-debug.apk",
+      "newCommandTimeout": 100000,
+      "deviceName" : "Android Emulator",
+      "platformName":"Android",
+      "platformVersion": "4.4"
+    },
+   "ios settings":
+     {
+       "deviceName": "iPhone 6 Device",
+       "app": "settings",
+       "platformVersion": "8.3",
+       "platformName":"iOS",
+       "newCommandTimeout": 100000
+     },
+   "peoplePicker":
+   {
+     "deviceName": "iPhone Simulator",
+     "app": "/Users/jonahss/Library/Developer/Xcode/DerivedData/PeoplePickerExample-dqrjklgkyptkxngbjboznrsgamrr/Build/Products/Debug-iphonesimulator/PeoplePickerExample.app",
+     "platformVersion": "8.3",
+     "platformName":"iOS",
+     "newCommandTimeout": 100000
+   },
+   "sauceApiDemos":
+   {
+     "browserName":"",
+     "deviceName": "Android",
+     "app": "sauce-storage:apiDemos.apk",
+     "newCommandTimeout": 100000,
+     "idleTimeout": 100000,
+     "deviceName" : "Android Emulator",
+     "platformName":"Android",
+     "platformVersion": "4.4",
+     "appiumVersion": "1.4.7"
+   },
+   "sauceTestApp":
+   {
+     "browserName":"",
+     "deviceName": "iPad Air",
+     "app": "sauce-storage:testApp.app",
+     "newCommandTimeout": 100000,
+     "idleTimeout": 100000,
+     "platformName":"Android",
+     "platformVersion": "7.1",
+     "appiumVersion": "1.4.7"
+   },
+   "TwoWebviews":
+   {
+     "deviceName": "Android",
+     "appPackage": "com.dstefanoc.twowebviewstest",
+     "appActivity": "com.dstefanoc.twowebviewstest.MainActivity",
+     "platformName":"Android",
+     "platformVersion":"4.4",
+     "newCommandTimeout": 100000
+   },
+   "Messed Uop":
+   {
+     "browserName" : "Safari",
+     "platform" : "Windows 8.1",
+     "version" : "8.0"
+   },
+   "sauceAndroidContactsRealDevice":
+   {
+     "browserName":"",
+     "deviceName": "Samsung Galaxy S4 Device",
+     "app": "http://appium.s3.amazonaws.com/ContactManager.apk",
+     "newCommandTimeout": 100000,
+     "idleTimeout": 100000,
+     "platformName":"Android",
+     "platformVersion": "4.4",
+     "appiumVersion": "1.4.10"
+   },
+   "sauceiPhoneRealDevice":
+   {
+     "browserName":"safari",
+     "deviceName": "iPhone 6 Device",
+     "newCommandTimeout": 100000,
+     "idleTimeout": 100000,
+     "platformName":"iOS",
+     "platformVersion": "8.4",
+     "appiumVersion": "1.4.10"
+   }
 }
