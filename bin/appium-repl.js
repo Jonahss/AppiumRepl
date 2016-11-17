@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 var path = require("path");
 
 var opts = require("nomnom")
