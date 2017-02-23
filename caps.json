@@ -47,23 +47,6 @@
 
 
     },
-  "ContactManager" :
-    {
-      "device": "Android",
-      "app": "http://saucelabs.com/example_files/ContactManager.apk",
-      "newCommandTimeout": 100000,
-      "deviceName" : "Android",
-      "platformName":"Android"
-    },
-
-    "Uber" :
-      {
-        "device": "Android",
-        "app": "/Users/moizvirani/Downloads/Uber-com.ubercab-30616-v3.0.20.apk",
-        "newCommandTimeout": 100000,
-        "deviceName" : "Android",
-        "platformName":"Android"
-      },
 
   "Webview" :
     {
@@ -114,13 +97,7 @@
       "newCommandTimeout": 100000,
       "udid": "b05ebfabc9e31846a5541453be600cbb58156357"
     },
-  "StabilityTest" :
-    {
-      "platformName": "Android",
-      "deviceName": "Galaxy S4",
-      "app": "/Users/jonahss/Workspace/stability/com.into.stability-1.apk",
-      "newCommandTimeout": 100000
-    },
+
   "clean-calculator1":
     {
       "device": "Android",
@@ -146,14 +123,7 @@
       "newCommandTimeout": 100000,
       "platformName":"iOS"
     },
-  "BofA":
-    {
-      "deviceName": "iPad Simulator",
-      "platformVersion": "7.1",
-      "platformName": "iOS",
-      "newCommandTimeout": 100000,
-      "browserName": "Safari"
-    },
+
   "browser":
     {
       "deviceName": "Android Emulator",
@@ -186,18 +156,7 @@
      "platformName":"iOS",
      "newCommandTimeout": 100000
    },
-   "sauceApiDemos":
-   {
-     "browserName":"",
-     "deviceName": "Android",
-     "app": "sauce-storage:apiDemos.apk",
-     "newCommandTimeout": 100000,
-     "idleTimeout": 100000,
-     "deviceName" : "Android Emulator",
-     "platformName":"Android",
-     "platformVersion": "4.4",
-     "appiumVersion": "1.4.7"
-   },
+
    "sauceTestApp":
    {
      "browserName":"",
@@ -218,12 +177,7 @@
      "platformVersion":"4.4",
      "newCommandTimeout": 100000
    },
-   "Messed Uop":
-   {
-     "browserName" : "Safari",
-     "platform" : "Windows 8.1",
-     "version" : "8.0"
-   },
+   
    "sauceAndroidContactsRealDevice":
    {
      "browserName":"",
