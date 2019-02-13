@@ -7,14 +7,13 @@
     "appium-repl": "./bin/appium-repl.js"
   },
   "dependencies": {
-    "colors": "^0.6.2",
+    "colors": "^1.3.3",
     "nomnom": "^1.8.1",
     "promirepl": "^1.0.1",
-    "prompt": "0.2.13",
-    "q": "^1.0.1",
-    "telme-promise": "^0.1.0",
-    "underscore": "1.6.0",
-    "wd": "~1.0.0"
+    "q": "^2.0.3",
+    "telme-promise": "^1.0.0",
+    "underscore": "1.9.1",
+    "wd": "~1.11.1"
   },
   "devDependencies": {
     "eslint": "^1.7.1"
