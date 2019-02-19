@@ -21,11 +21,11 @@ var opts = require("nomnom")
   })
   .option("username", {
     default: process.env.SAUCE_USERNAME,
-    help: "Appium Username"
+    help: "Saucelabs Username"
   })
   .option("password", {
     default: process.env.SAUCE_ACCESS_KEY,
-    help: "Appium password"
+    help: "Saucelabs password"
   })
   .parse();
 
@@ -38,4 +38,4 @@ var config = {
   user: opts.username,
   pwd: opts.password
 };
-repl.run(config);
+repl(config);

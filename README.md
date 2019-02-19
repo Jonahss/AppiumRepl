@@ -4,8 +4,8 @@ Simple REPL (Read-eval-print Loop) for controlling mobile apps through [Appium](
 
 Why?
 =======
-wd, or Web Driver/Selenium 2 Client, already contains a REPL detailed [here](https://github.com/admc/wd#repl) 
-however it requires some tedious boilerplate in order to get into useful REPL operations. This package aims to 
+wd, or Web Driver/Selenium 2 Client, already contains a REPL detailed [here](https://github.com/admc/wd#repl)
+however it requires some tedious boilerplate in order to get into useful REPL operations. This package aims to
 allow you to bypass that initial effort and get right into a meaningful REPL context.  
 
 Getting Started
@@ -14,11 +14,11 @@ Getting Started
 
 Before Use
 ========
-Create a `.appium-repl.json` where ever you intend to execute `appium-repl` from. This could be inside a project 
+Create a `.appium-repl.json` where ever you intend to execute `appium-repl` from. This could be inside a project
 and then kept under your own version control for other developers to use.
 
 Example `.appium-repl.json`
-======== 
+========
 ```
 {
   "TestApp1" :
@@ -42,17 +42,17 @@ Putting it all together
   * find appium [here](https://github.com/appium/appium)
   * ensure that you have the appropriate XCode/Android SDKs installed
   * run it, _consult appium's documentation if any issues occur_
-4. run `appium-repl` 
+4. run `appium-repl`
 5. choose your configuration option (`.appium-repl.json` can have any number of defined configurations)
 6. access `driver` directly from the REPL. refer to [wd docs](https://github.com/admc/wd/blob/master/doc/api.md) for relevant methods
 7. profit?
 
-Example REPL activity (with a Cordova App) 
+Example REPL activity (with a Cordova App)
 =======
 Comments and newlines added for readability
 ```
 // See all contexts in the app under test
->>driver.contexts() 
+>>driver.contexts()
  > CALL contexts()
  > RESPONSE contexts() ["NATIVE_APP","WEBVIEW_56394.1"]
 [ 'NATIVE_APP', 'WEBVIEW_56394.1' ]
@@ -121,3 +121,6 @@ Element {
 
 If you press tab it will show you all possible options that are available. If a driver command returns a array
 then current would become an array.
+
+Async/Await: Run this package with the newest version of node.js and add the `--experimental-repl-await` flag to use `await` in the repl:
+`node --experimental-repl-await .`
