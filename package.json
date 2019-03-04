@@ -12,11 +12,9 @@
     "nomnom": "^1.8.1",
     "telme-promise": "^1.0.0",
     "underscore": "1.9.1",
-    "wd": "~1.11.1"
+    "wd": "^1.11.1"
   },
-  "devDependencies": {
-    "eslint": "^1.7.1"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

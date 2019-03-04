@@ -4,9 +4,7 @@ Simple REPL (Read-eval-print Loop) for controlling mobile apps through [Appium](
 
 Why?
 =======
-wd, or Web Driver/Selenium 2 Client, already contains a REPL detailed [here](https://github.com/admc/wd#repl)
-however it requires some tedious boilerplate in order to get into useful REPL operations. This package aims to
-allow you to bypass that initial effort and get right into a meaningful REPL context.  
+wd, or Web Driver/Selenium 2 Client, already contains a REPL detailed [here](https://github.com/admc/wd#repl) however it requires some tedious boilerplate in order to get into useful REPL operations. This package aims to allow you to bypass that initial effort and get right into a meaningful REPL context.  
 
 Getting Started
 ========
@@ -33,6 +31,8 @@ Example `.appium-repl.json`
     }
 }
 ```
+
+See more examples in the `sample-appium-repl.json` file.
 
 Putting it all together
 =======

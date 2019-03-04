@@ -1,0 +1,25 @@
+{
+  "TheApp iOS": {
+    "deviceName": "iPhone XS",
+    "app": "https://github.com/cloudgrey-io/the-app/releases/download/v1.3.0/TheApp-v1.3.0.app.zip",
+    "platformVersion": "12.1",
+    "platformName": "iOS",
+    "fullContextList": true
+  },
+  "TheApp iOS Real Device": {
+    "platformName": "iOS",
+    "platformVersion": "12.1.4",
+    "deviceName": "iPhone XS",
+    "udid": "auto",
+    "app": "https://github.com/cloudgrey-io/the-app/releases/download/v1.3.0/TheApp-v1.3.0.app.zip",
+    "xcodeOrgId": "<ORG ID>",
+    "xcodeSigningId": "iPhone Developer",
+    "updatedWDABundleId": "com.test.webdriveragent"
+  },
+  "TheApp Android": {
+    "platformName": "Android",
+    "platformVersion": 28,
+    "deviceName": "emulator",
+    "app": "https://github.com/cloudgrey-io/the-app/releases/download/v1.8.1/TheApp-v1.8.1.apk"
+  }
+}
